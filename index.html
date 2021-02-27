@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+<style>
+body{
+background-image:url(images/backgroundimg.png) ;
+}
+</style>
+    <link 
+      rel="icon"  
+      type="image/png"
+      href="images/background img.png"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAs4BxuFMLxTW_udOWl2RS6OsZjhTDEj94",
+        authDomain: "emoji-racing-game.firebaseapp.com",
+        databaseURL: "https://emoji-racing-game-default-rtdb.firebaseio.com",
+        projectId: "emoji-racing-game",
+        storageBucket: "emoji-racing-game.appspot.com",
+        messagingSenderId: "292008807834",
+        appId: "1:292008807834:web:0cb9205a07719a304c7e23",
+        measurementId: "G-EDEPC9PN2Y"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    
+    <script src="js/Game.js"></script>
+    <script src="js/game1.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/player1.js"></script>
+    <script src="js/player2.js"></script>
+    <script src="js/player3.js"></script>
+    <script src="js/player4.js"></script>
+    <script src="js/player5.js"></script>
+    <script src="js/player6.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+   
+  </body>
+</html>
